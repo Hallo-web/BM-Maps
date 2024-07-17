@@ -98,18 +98,23 @@ h1, h2 {
 
 .trend-technology h2 {
     background-color: blue;
+    text-align: center;
+    text-decoration-color: var(--header-blue);
 }
 
 .trend-ecological h2 {
     background-color: #40ae49;
+    text-align: center;
 }
 
 .trend-health h2 {
     background-color: #cb6926;
+    text-align: center;
 }
 
 .trend-human-factor h2 {
     background-color: #733102;
+    text-align: center;
 }
 
 
