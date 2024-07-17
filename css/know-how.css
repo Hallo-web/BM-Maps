@@ -1,0 +1,73 @@
+/* CSS for know-how.html */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero-image {
+    background-image: url('../images/ihavenoideawhatthisis.png');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero-image h1 {
+    font-size: 2.5em;
+}
+
+.hero-image p {
+    font-size: 1.2em;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+.carousel-images img:first-child {
+    display: block;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.carousel-dots .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-dots .dot.active {
+    background-color: #717171;
+}
+
+.text-paragraph {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
