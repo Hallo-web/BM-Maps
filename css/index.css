@@ -107,6 +107,8 @@ body {
 section {
     padding: 50px 20px;
     margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .bm-transform, .bm-trends {
@@ -148,26 +150,32 @@ button:hover {
     opacity: 0.8;
 }
 
-.images, .trends {
+.imac-images, .trends {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.images img, .trends .trend img {
-    width: 100%; /* Adjusted to make images larger */
-    height: auto; /* Adjusted to maintain aspect ratio */
+.imac-images img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
     margin: 0 10px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px; /* Adjust this value to set the space between the cards */
-    justify-items: center;
-    align-items: center;
+.center-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
 
 .card {
     background-color: var(--header-blue);
@@ -175,13 +183,15 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 250px;
-    min-width: 250px;
+    margin: 15px;
 }
+
 .card img {
     width: 100%;
     height: 150px;
     object-fit: cover;
 }
+
 .card .content {
     background-color: var(--header-blue);
     color: white;
@@ -197,10 +207,14 @@ button:hover {
     p {
         width: 100%;
     }
-}
 
-@media (max-width: 800px) {
     .container {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15px 0;
     }
 }
