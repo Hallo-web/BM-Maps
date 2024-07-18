@@ -1,0 +1,321 @@
+:root {
+    --header-greenblue: #31cde8;
+    --header-lightblue: #18a2ff;
+    --header-blue: #186cff;
+    --header-greyblue: #2c57a6;
+    --header-darkblue: #2514b8;
+    --main-body-green: #40ae49;
+    --main-body-orange: #cb6926;
+    --main-body-brown: #733102;
+    --main-body-pink: #ed028c;
+    --main-body-white: #edfae6;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+header {
+    background-color: #000080;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+main {
+    height: calc(100vh - 50px); /* Adjust based on header height */
+}
+
+section {
+    height: 20%;
+    padding: 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.trend {
+    position: relative;
+    background-color: var(--header-lightblue);    
+    
+}
+
+.trend-technology .h2 {
+    background-color: orange;
+    color: white;
+}
+
+.more{
+    align-self: flex-start;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.trend-technology {
+    background-image: url('/images/ihavenoideawhatthisis.png');
+}
+
+.trend-ecological {
+    background-image: url('/images/wald.png');
+}
+
+.trend-health {
+    background-image: url('/images/strand.png');
+}
+
+.trend-human-factor {
+    background-image: url('/images/gemeinschaft.png');
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.trend-technology h2 {
+    background-color: blue;
+    text-align: center;
+    text-decoration-color: var(--header-blue);
+}
+
+.trend-ecological h2 {
+    background-color: #40ae49;
+    text-align: center;
+}
+
+.trend-health h2 {
+    background-color: #cb6926;
+    text-align: center;
+}
+
+.trend-human-factor h2 {
+    background-color: #733102;
+    text-align: center;
+}
+
+
+p {
+    margin-top: 10px;
+}
+
+section .intro{
+    color: var(--header-blue);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-darkblue);
+    height: 60px;
+}
+
+header .logo h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav {
+    height: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+nav ul li {
+    flex: 1;
+    height: 100%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav ul li a.geschäftsmodell-transformation-link {
+    background-color: var(--header-greyblue);
+}
+
+nav ul li a.trends-link {
+    background-color: var(--header-blue);
+}
+
+nav ul li a.know-how-link {
+    background-color: var(--header-lightblue);
+}
+
+nav ul li a.partner-link {
+    background-color: var(--header-greenblue);
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/index-Background.png");
+    background-size: 150%;
+    background-repeat: repeat;
+    background-position: center;
+    font-size: 18px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: var(--header-darkblue);
+}
+
+section {
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.bm-transform, .bm-trends {
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-top: 0.5px solid var(--header-darkblue);
+    border-bottom: 0.5px solid var(--header-darkblue);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+section .trend-technology{
+    text-align: center;
+    background-color:#186cff;
+    color: white;
+}
+section .trend-ecological{
+    text-align: center;
+    background-color: #40ae49;
+    color: white;
+}
+section .trend-health{
+    text-align: center;
+    background-color: #cb6926;
+    color: white;
+}
+section .trend-human-factor{
+    text-align: center;
+    background-color: #733102;
+    color: white;
+}
+
+section p {
+    font-size: 0.8em;
+    text-align: center;
+    color: var(--header-darkblue);
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: var(--main-body-pink);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    text-align: center;
+    width: 20%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.images, .trends {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images img, .trends .trend img {
+    width: 100%; /* Adjusted to make images larger */
+    height: auto; /* Adjusted to maintain aspect ratio */
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card .content {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    button {
+        width: 90%;
+    }
+
+    p {
+        width: 100%;
+    }
+}
