@@ -56,6 +56,11 @@ nav ul li a {
     height: 100%;
     width: 100%;
 }
+
+nav ul li img {
+    width: 90%;
+    height: 100%;
+}
 /*Nav Bar end*/
 
 /*Items in Nav Bar*/
@@ -95,29 +100,38 @@ body {
 
 /*Intro start*/
 .intro {
-    text-align: center;
-    padding: 50px 20px;
+    text-align: left;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 
-
 .intro p {
-    font-size: 1.2em;
+    font-size: 2em;
+    color: var(--header-blue);
+}
+
+.intro h1 {
+    font-size: 4em;
     color: var(--header-darkblue);
 }
 /*Intro End*/
 
-/*Very Important for fixing sections*/
+/*Spacings Start*/
 section {
     padding: 50px 20px;
     margin-bottom: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
 .abstand {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%; /*old value was 10% for top and bottom*/
+    margin-bottom: 5%;
 }
-/*Perfectly Space*/
+/*Spacings End*/
 
 /*Trend Technology start*/
 .trend-technology {
@@ -134,13 +148,18 @@ section {
     justify-content: space-between;
     height: auto;
     min-height: 150px;
+    position: relative;
 }
 
 .trend-technology h2 {
     background-color: transparent;
     text-align: left;
-    font-size: 24px;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 2em;
     margin: 0 0 15px 0;
+    background-color: var(--header-darkblue);
+    box-sizing: border-box;
 }
 
 .trend-technology .more {
@@ -180,14 +199,18 @@ section {
 .trend-ecological h2 {
     background-color: transparent;
     text-align: left;
-    font-size: 24px;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 2em;
     margin: 0 0 15px 0;
+    background-color: var(--main-body-green);
+    box-sizing: border-box;
 }
 
 .trend-ecological .more {
     align-self: flex-start;
     padding: 8px 20px;
-    background-color: var(--header-blue);
+    background-color: var(--main-body-green);
     color: white;
     text-decoration: none;
     border-radius: 3px;
@@ -221,14 +244,18 @@ section {
 .trend-health h2 {
     background-color: transparent;
     text-align: left;
-    font-size: 24px;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 2em;
     margin: 0 0 15px 0;
+    background-color: var(--main-body-orange);
+    box-sizing: border-box;
 }
 
 .trend-health .more {
     align-self: flex-start;
     padding: 8px 20px;
-    background-color: var(--header-blue);
+    background-color: var(--main-body-orange);
     color: white;
     text-decoration: none;
     border-radius: 3px;
@@ -237,7 +264,7 @@ section {
 }
 
 .trend-health .more:hover {
-    background-color: var(--header-darkblue);
+    background-color: var(--header-darkblue); /*background color changes when mouse is hovered over that*/
 }
 /*Trend health stop*/
 
@@ -262,14 +289,18 @@ section {
 .trend-human-factor h2 {
     background-color: transparent;
     text-align: left;
-    font-size: 24px;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 2em;
     margin: 0 0 15px 0;
+    background-color: var(--main-body-brown);
+    box-sizing: border-box;
 }
 
 .trend-human-factor .more {
     align-self: flex-start;
     padding: 8px 20px;
-    background-color: var(--header-blue);
+    background-color: var(--main-body-brown);
     color: white;
     text-decoration: none;
     border-radius: 3px;
@@ -283,7 +314,7 @@ section {
 /*Trend Human Factor end*/
 
 
-/*For animation  in the header start*/
+/*Header Animation start*/
 .indicator {
     position: absolute;
     bottom: 0;
@@ -296,7 +327,7 @@ nav ul {
     position: relative;
 }
 
-nav ul li a.active {
-    /* Style for the active page link if needed */
-}
-/*For animation in the header end*/
+/*nav ul li a.active {
+    Style for the active page link if needed
+}*/
+/*Header Animation end*/
