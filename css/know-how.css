@@ -11,6 +11,94 @@
     --main-body-white: #edfae6;
 }
 
+/*Header Start*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-darkblue);
+    height: 60px;
+}
+/*Header End*/
+
+/*Nav Bar*/
+nav {
+    height: 100%;
+    text-align: center;
+    width: 100%; /* Ensure nav takes full width */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Spread items evenly */
+    height: 100%;
+    width: 100%; 
+}
+
+nav ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav ul li img {
+    width: 90%;
+    height: 100%;
+}
+/*Nav Bar end*/
+
+
+
+/*Nav Bar Animation*/
+.indicator {
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: #ed028c; /* Pink color */
+    transition: 0.3s ease-in-out;
+}
+
+nav ul {
+    position: relative;
+}
+
+/*Items in Nav Bar*/
+nav ul li a.geschäftsmodell-transformation-link {
+    background-color: var(--header-greyblue);
+}
+
+nav ul li a.trends-link {
+    background-color: var(--header-blue);
+}
+
+nav ul li a.know-how-link {
+    background-color: var(--header-lightblue);
+}
+
+nav ul li a.partner-link {
+    background-color: var(--header-greenblue);
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+/*Items in Nav Bar End*/
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;

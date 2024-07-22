@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     indicator.className = 'indicator';
     document.querySelector('nav ul').appendChild(indicator);
 
-    // Set initial position of indicator
-    setIndicatorPosition(document.querySelector('.trends-link'));
-
     // Function to set indicator position
     function setIndicatorPosition(element) {
         indicator.style.width = `${element.offsetWidth}px`;
@@ -22,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         item.addEventListener('mouseleave', function () {
             indicator.style.backgroundColor = '#ed028c'; // Pink color
-            setIndicatorPosition(document.querySelector('.trends-link'));
+
         });
     });
 

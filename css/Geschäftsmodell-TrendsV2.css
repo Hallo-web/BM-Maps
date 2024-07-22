@@ -162,6 +162,7 @@ body {
 .intro h1 {
     font-size: 4em;
     color: white;
+    background-color: var(--header-blue);
     text-align: left;
     margin-top: 0%;
 }
