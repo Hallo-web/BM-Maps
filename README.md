@@ -84,3 +84,13 @@
 
 - Desktop: 14px - 16px
 - Mobile: 14px - 16px
+
+## Bilder Quellen
+
+- Gemeinschaft.png (link: https://www.work-buddy.com/upload/201806251701424805.jpeg)
+
+-wald.png (link: https://www.in.gov/idem/iee/images/pagebanner_health_interior.jpg)
+
+-strand.png (link: https://blog.mindvalley.com/wp-content/uploads/2018/01/rsz_d1-1-1200x600-c-default.jpg)
+
+-ihavenoideawhatthisis.png (link: https://images.squarespace-cdn.com/content/v1/5bd22df8f4e53178ffdb430d/1612403745154-GUHVPVKYUSH2KWOJR0LE/connection%2B%281%29+%282%29.jpg)
