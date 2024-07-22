@@ -94,3 +94,9 @@
 - strand.png (link: https://blog.mindvalley.com/wp-content/uploads/2018/01/rsz_d1-1-1200x600-c-default.jpg)
 
 - ihavenoideawhatthisis.png (link: https://images.squarespace-cdn.com/content/v1/5bd22df8f4e53178ffdb430d/1612403745154-GUHVPVKYUSH2KWOJR0LE/connection%2B%281%29+%282%29.jpg)
+
+- iotImg1 (link: https://75d03c5f1bfbbbb9cc13-369a671ebb934b49b239e372822005c5.ssl.cf1.rackcdn.com/building-secure-iot-deployment-using-5g-wireless-wan-showcase_image-8-w-4307.jpg)
+
+- iotImg2 (link: https://miro.medium.com/v2/resize:fit:1200/1*Z6bvufzOUGRYiW5kyUtRwQ.jpeg)
+
+- iotImg3 (link: https://digitaleconomy.stanford.edu/wp-content/uploads/2022/03/blockchain.png)
